@@ -26,30 +26,30 @@ namespace Core
         private void Awake()
         {
             Initialize();
-            PlayGamesPlatform.DebugLogEnabled = true;
-            PlayGamesPlatform.Activate();
+            //PlayGamesPlatform.DebugLogEnabled = true;
+            //PlayGamesPlatform.Activate();
         }
 
-        private void Start()
-        {
-            SignInToGooglePlayServices();
-        }
+        //private void Start()
+        //{
+        //    SignInToGooglePlayServices();
+        //}
 
-        private void SignInToGooglePlayServices()
-        {
-            PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
-            {
-                switch (result)
-                {
-                    case SignInStatus.Success:
-                        isConnectedToGooglePlayServices = true;
-                        break;
-                    default:
-                        isConnectedToGooglePlayServices = false;
-                        break;
-                }
-            });
-        }
+        //private void SignInToGooglePlayServices()
+        //{
+        //    PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+        //    {
+        //        switch (result)
+        //        {
+        //            case SignInStatus.Success:
+        //                isConnectedToGooglePlayServices = true;
+        //                break;
+        //            default:
+        //                isConnectedToGooglePlayServices = false;
+        //                break;
+        //        }
+        //    });
+        //}
 
         private void Initialize()
         {

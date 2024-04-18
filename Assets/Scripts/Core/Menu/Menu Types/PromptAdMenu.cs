@@ -14,7 +14,7 @@ namespace Core
                     GameOverMenu.Close();
                     GameMenu.Show();
 
-                    AdManager.Instance.PlayRewarded();
+                    //AdManager.Instance.PlayRewarded();
                 }
             }
         }
