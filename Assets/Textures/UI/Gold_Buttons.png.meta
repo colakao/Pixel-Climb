@@ -84,7 +84,7 @@ TextureImporter:
       213: -5165270658491094567
     second: Gold_Buttons_Achievements_Disabled
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -101,10 +101,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -114,8 +116,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -143,6 +145,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -154,6 +158,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -166,6 +171,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -178,6 +184,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -190,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -202,6 +210,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -214,6 +223,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -796,9 +819,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Gold_Buttons_Achievements: 5527607718705404299
+      Gold_Buttons_Achievements_Disabled: -5165270658491094567
+      Gold_Buttons_Achievements_Pressed: -4271018826012764573
+      Gold_Buttons_Back: -8598522998417099228
+      Gold_Buttons_Back_Disabled: 8589596049676991934
+      Gold_Buttons_Back_Pressed: -8674887722429985979
+      Gold_Buttons_Leaderboards: 6069633021719255891
+      Gold_Buttons_Leaderboards_Disabled: -4164078733705987311
+      Gold_Buttons_Leaderboards_Pressed: 4539250870338501572
+      Gold_Buttons_MainMenu: 3991949343732584323
+      Gold_Buttons_MainMenu_Disabled: 4525760281406513388
+      Gold_Buttons_MainMenu_Pressed: -3061944291348725174
+      Gold_Buttons_No: 5453102110905249306
+      Gold_Buttons_No_Disabled: 758550065086484288
+      Gold_Buttons_No_Pressed: 3794953412209833302
+      Gold_Buttons_Options: -3960620601344266890
+      Gold_Buttons_Options_Disabled: 7651897768368700678
+      Gold_Buttons_Options_Pressed: -882615601598549422
+      Gold_Buttons_Replay: -4889587196806916822
+      Gold_Buttons_Replay_Disabled: -4397753421000680084
+      Gold_Buttons_Replay_Pressed: -3044196062701944152
+      Gold_Buttons_WatchAd: 4912956353517778319
+      Gold_Buttons_WatchAd_Disabled: -3591844575006411843
+      Gold_Buttons_WatchAd_Pressed: -7031449962034570950
+      Gold_Buttons_Yes: -6023461629184442130
+      Gold_Buttons_Yes_Disabled: 6401576186452177724
+      Gold_Buttons_Yes_Pressed: 4236198360428403340
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

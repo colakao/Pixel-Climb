@@ -1,5 +1,5 @@
 using UnityEngine;
-using GooglePlayGames;
+//using GooglePlayGames;
 using UnityEngine.SocialPlatforms;
 
 public class GooglePlayButtons : MonoBehaviour

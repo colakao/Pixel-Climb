@@ -34,7 +34,7 @@ namespace Core
 				{
 					if (Instance == null)
 					{
-						Debug.LogErrorFormat("Trying to close menu {0} but Instance is null", typeof(T));
+						Debug.LogWarningFormat("Trying to close menu {0} but Instance is null", typeof(T));
 						return;
 					}
 

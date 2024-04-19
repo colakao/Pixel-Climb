@@ -4,8 +4,8 @@ using Core.Menu.MenuSystem;
 using Core.Save;
 
 using UnityEngine.SocialPlatforms;
-using GooglePlayGames.BasicApi;
-using GooglePlayGames;
+//using GooglePlayGames.BasicApi;
+//using GooglePlayGames;
 using System;
 
 namespace Core
@@ -69,35 +69,35 @@ namespace Core
         private void UpdateScore(int scoreToAdd = 0)
         {
             UpdateScoreUI.UpdateScore(score);
-            SendAchievementProgress(score);
+            //SendAchievementProgress(score);
         }
 
-        private void SendAchievementProgress(int _score)
-        {
-            switch (_score)
-            {
-                case 10:
-                    Social.ReportProgress(GPGSIds.achievement_double_digits, 100f, null);
-                    break;
-                case 25:
-                    Social.ReportProgress(GPGSIds.achievement_getting_the_hang_of_it, 100f, null);
-                    break;
-                case 50:
-                    Social.ReportProgress(GPGSIds.achievement_patience_makes_perfect, 100f, null);
-                    break;
-                case 100:
-                    Social.ReportProgress(GPGSIds.achievement_climb_graduate, 100f, null);
-                    break;
-                case 258:
-                    Social.ReportProgress(GPGSIds.achievement_better_than_the_developer, 100f, null);
-                    break;
-                case 999:
-                    Social.ReportProgress(GPGSIds.achievement_gate_of_expertise, 100f, null);
-                    break;
-                default:
-                    break;
-            }
-        }
+        //private void SendAchievementProgress(int _score)
+        //{
+        //    switch (_score)
+        //    {
+        //        case 10:
+        //            Social.ReportProgress(GPGSIds.achievement_double_digits, 100f, null);
+        //            break;
+        //        case 25:
+        //            Social.ReportProgress(GPGSIds.achievement_getting_the_hang_of_it, 100f, null);
+        //            break;
+        //        case 50:
+        //            Social.ReportProgress(GPGSIds.achievement_patience_makes_perfect, 100f, null);
+        //            break;
+        //        case 100:
+        //            Social.ReportProgress(GPGSIds.achievement_climb_graduate, 100f, null);
+        //            break;
+        //        case 258:
+        //            Social.ReportProgress(GPGSIds.achievement_better_than_the_developer, 100f, null);
+        //            break;
+        //        case 999:
+        //            Social.ReportProgress(GPGSIds.achievement_gate_of_expertise, 100f, null);
+        //            break;
+        //        default:
+        //            break;
+        //    }
+        //}
         #endregion
 
         #region GameStates
